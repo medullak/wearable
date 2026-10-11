@@ -1,0 +1,43 @@
+{
+  "trial": "1009_left_01",
+  "video": "1009_left_01.mp4",
+  "frames": 163,
+  "processed": 163,
+  "frame_size": [
+    1080,
+    1440
+  ],
+  "video_fps": 30.0,
+  "duration_sec": 5.433,
+  "frames_with_det": 91,
+  "frames_with_target": 12,
+  "label_counts": {
+    "tv": 51,
+    "chair": 58,
+    "dining table": 4,
+    "couch": 1,
+    "toilet": 12,
+    "refrigerator": 24,
+    "microwave": 4
+  },
+  "first_level1": null,
+  "first_level2": {
+    "t_sec": 3.333,
+    "dist": 2.777,
+    "direction": "오른쪽"
+  },
+  "first_level3": null,
+  "max_level": 2,
+  "yolo_ms_median": 12.9,
+  "depth_ms_median": 239.7,
+  "wall_sec": 18.09,
+  "expected_dir": null,
+  "gt_2m_sec": null,
+  "note": null,
+  "first_vibration": {
+    "t_sec": 3.333,
+    "dist": 2.777,
+    "direction": "오른쪽",
+    "target_label": "DEPTH"
+  }
+}

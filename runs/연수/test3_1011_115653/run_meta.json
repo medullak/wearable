@@ -1,0 +1,71 @@
+{
+  "run_at": "2026-10-11T11:56:53",
+  "args": {
+    "video": "test3.mp4",
+    "trial": "test3",
+    "runner": "연수",
+    "expected_dir": null,
+    "gt_2m_sec": null,
+    "note": null,
+    "depth_every_n": 4
+  },
+  "pipeline": {
+    "device": "mps",
+    "yolo_weights": "yolo11n.pt",
+    "depth_model": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+    "conf": 0.4,
+    "imgsz": 416,
+    "torch": "2.14.1",
+    "ultralytics": "8.4.174",
+    "transformers": "5.19.0",
+    "opencv": "5.0.0"
+  },
+  "alarm_constants": {
+    "MODEL_PATH": "yolo11n.pt",
+    "IMG_SIZE": 416,
+    "PATH_WIDTH_M": 0.8,
+    "HFOV_DEG": 70.0,
+    "WARN_M": 3,
+    "PATH_Y": [
+      0.25,
+      0.75
+    ],
+    "PATH_ROI": [
+      0.4,
+      0.6,
+      0.25,
+      0.75
+    ],
+    "BOX_SHRINK": 0.2,
+    "BOX_PERCENTILE": 30,
+    "NEAR_PERCENTILE": 5,
+    "BOX_OVERLAP_MIN": 0.3,
+    "ZONE_MODE": "path",
+    "ZONE_DRAW": "screen",
+    "MOTOR_MAP": {
+      "왼쪽": "right",
+      "오른쪽": "left",
+      "정면": "neck"
+    },
+    "VIB_COUNT": {
+      "1": 1,
+      "2": 2
+    },
+    "RUNS_DIR": "runs",
+    "SCHEMA_VERSION": 1,
+    "DEPTH_SCALE": 1.0,
+    "choices": {
+      "2-1": "A",
+      "2-2": "B",
+      "2-3": "경고하지 않음",
+      "2-5": "path",
+      "2-7": "B",
+      "2-9": "B (PATH_ROI 다시 계산)",
+      "2-10": "A (정면 → neck)"
+    }
+  },
+  "runner": "연수",
+  "git_commit": "unknown",
+  "video_file": "test3.mp4",
+  "schema_version": 1
+}

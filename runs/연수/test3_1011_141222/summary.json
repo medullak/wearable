@@ -1,0 +1,41 @@
+{
+  "trial": "test3",
+  "video": "test3.mp4",
+  "frames": 244,
+  "processed": 244,
+  "frame_size": [
+    1080,
+    1442
+  ],
+  "video_fps": 30.0,
+  "duration_sec": 8.133,
+  "frames_with_det": 211,
+  "frames_with_target": 110,
+  "label_counts": {
+    "person": 21,
+    "train": 14,
+    "bench": 8,
+    "chair": 108,
+    "toilet": 62
+  },
+  "first_level1": null,
+  "first_level2": {
+    "t_sec": 0.4,
+    "dist": 2.723,
+    "direction": "오른쪽"
+  },
+  "first_level3": null,
+  "max_level": 2,
+  "yolo_ms_median": 13.0,
+  "depth_ms_median": 237.5,
+  "wall_sec": 26.54,
+  "expected_dir": null,
+  "gt_2m_sec": null,
+  "note": null,
+  "first_vibration": {
+    "t_sec": 0.4,
+    "dist": 2.723,
+    "direction": "오른쪽",
+    "target_label": "DEPTH"
+  }
+}
